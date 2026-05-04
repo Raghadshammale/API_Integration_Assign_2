@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - API Integration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌤️ تطبيق الطقس</h1>
+        <p>استعلام عن حالة الطقس باستخدام OpenWeather API</p>
+        
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="أدخل اسم المدينة... (مثال: London, Cairo, Paris)">
+            <button id="searchBtn">🔍 بحث</button>
+        </div>
+        
+        <div id="weatherResult" class="result-card">
+            <p>✨ انتظر إدخال اسم المدينة...</p>
+        </div>
+        
+        <div class="info">
+            <small>بيانات الطقس من OpenWeather API</small>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
